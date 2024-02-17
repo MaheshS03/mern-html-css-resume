@@ -10,13 +10,13 @@ body{
 .main-section
 {
     background-color: #ffffff;
-    height: 100%;
+    height: auto;
     width: 50vw;
     position: absolute;
-    top: 0px;
     left: 25%;
     right: 25%;
-    border-radius: 20px;
+    top: 0px;
+    border-radius: 50px;
 }
 
 header{
