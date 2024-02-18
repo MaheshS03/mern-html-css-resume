@@ -5,11 +5,11 @@
 
 body{
     margin: 0px;
-    background-color: #525252;
+    background-color: #ffffff;
 }
 .main-section
 {
-    background-color: #ffffff;
+    background-color:#d68dd6 ;
     height: auto;
     width: 50vw;
     position: absolute;
@@ -33,37 +33,64 @@ header{
 }
 #primary-name
 {
-    font-family:  "Protest Strike",sans-serif;
+    font-family:"Protest Strike",sans-serif;
     font-size: 2rem;
     font-style: normal;
     margin-bottom: 6px;
-    color:chocolate;
+    color:#4b157d;
 }
 #primary-tag
 {
     font-optical-sizing: auto;
-    font-family: "Caveat",cursive;
+    font-family: "EB Garamond", serif;
     font-style: normal;
     font-weight: 100px;
     margin: 2px;
     font-size: 1.5rem;
-    color: rgb(40, 85, 209);
+    color: #4b157d;
 }
 #primary-tag-links
 {
-    font-family: "Caveat",cursive;
-    color: purple;
-    font-size: 1rem;
+    font-family: "EB Garamond", serif;
+    margin-top: 2px;
+    color: #4b157d;
+    font-size: 1.25rem;
 }
-.protest-strike-regular {
+.protest-strike-regular
+{
     font-family: "Protest Strike", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-
-.caveat-regular {
-  font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+}
+.eb-garamond-regular
+{
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#career-objective,#education,#mini-project,#other-skills,#certification,#internship,#technical-skills
+{
+    font-family: "Protest Strike",sans-serif;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(245, 228, 228);
+    color: #4b157d;
+}
+.summary
+{
+    text-align: center;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+#college,#school
+{
+    text-align: center;
+    font-family: "Protest Strike",sans-serif;
+    font-weight: bold; 
+    color: #4b157d;
+}
+ul
+{
+    list-style-type: none;
 }
